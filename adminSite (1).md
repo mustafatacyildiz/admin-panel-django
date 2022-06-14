@@ -606,7 +606,7 @@ from product.resources import ReviewResource
 
 class ReviewAdmin(ImportExportModelAdmin):
 
-    resource_class = ReviewResource
+    resource_class = ReviewResource 
 ```
 
 ### custom template (grapelli)
